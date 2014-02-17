@@ -2,7 +2,7 @@
 
 >ios7下1px线的几种实现方式
 
-- [1px-1.html](http://songxc.github.io/1px/1px-1.html '1px Border Demo') (background-color + scaleY)
+- [1px-1.html](http://songxc.github.io/demo/1px/1px-1.html '1px Border Demo') (background-color + scaleY)
 
 		.list li {
 			position: relative;
@@ -28,7 +28,7 @@
 			-webkit-transform-origin: 0 bottom;
 		}
 
-- [1px-2.html](http://songxc.github.io/1px/1px-2.html '1px Border Demo') (border + scale)
+- [1px-2.html](http://songxc.github.io/demo/1px/1px-2.html '1px Border Demo') (border + scale)
 	
 		.list li {
 	    	position: relative;
@@ -57,7 +57,7 @@
 	        -webkit-transform-origin: left top;
 	    }
 
-- [1px-3.html](http://songxc.github.io/1px/1px-3.html '1px Border Demo') (background)
+- [1px-3.html](http://songxc.github.io/demo/1px/1px-3.html '1px Border Demo') (background)
 
 		.list li {
 	    	position: relative;
