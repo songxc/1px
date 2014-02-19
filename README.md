@@ -1,6 +1,6 @@
 ## 1px Border Demo ##
 
->ios7下1px线的几种实现方式
+> ios7 下 1px 线的几种实现方式
 
 - [1px-1.html](http://songxc.github.io/demo/1px/1px-1.html '1px Border Demo') (background-color + scaleY)
 
@@ -68,11 +68,10 @@
 	        font-weight: bold;
 	        text-align: center;
 	        margin: 0 10px 10px 0;
-	        border: 1px solid #fff;
 	    	-webkit-box-sizing: border-box;
 	    	background: -webkit-linear-gradient(top, #fafafa 0%, #f0f0f0 50%, #fafafa 100%);
 	    }
-	
+
 	    .list li::after {
 	        content: '';
 	        position: absolute;
@@ -80,11 +79,13 @@
 	        left: 0;
 	        width: 100%;
 	        height: 100%;
-	        background-image: -webkit-linear-gradient(top, #aaa, #aaa 40%, transparent 40%, transparent),
-	            -webkit-linear-gradient(right, #aaa, #aaa 40%, transparent 40%, transparent),
-	            -webkit-linear-gradient(bottom, #aaa, #aaa 40%, transparent 40%, transparent),
-	            -webkit-linear-gradient(left, #aaa, #aaa 40%, transparent 40%, transparent);
+	        background-image: -webkit-linear-gradient(top, #aaa, #aaa 60%, transparent 60%),
+	            -webkit-linear-gradient(right, #aaa, #aaa 60%, transparent 60%),
+	            -webkit-linear-gradient(bottom, #aaa, #aaa 60%, transparent 60%),
+	            -webkit-linear-gradient(left, #aaa, #aaa 60%, transparent 60%);
 	        background-size: 100% 1px, 1px 100%;
 	        background-position: top, right top, bottom, left top;
 	        background-repeat: no-repeat;
 	    }
+
+

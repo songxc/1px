@@ -38,52 +38,18 @@
     	font-size: 24px;
     }
 
-    #content {
-        margin: 20px 10px;
-    }
-
-    .list {
-        font-size: 0;
-        text-align: center;
-    }
-
     .list li {
     	position: relative;
-        display: inline-block;
-        width: 140px;
-        padding: 20px 0;
-        font-size: 16px;
-        font-weight: bold;
-        text-align: center;
-        margin: 0 10px 10px 0;
+    	font-size: 16px;
+    	font-weight: bold;
+    	padding: 15px;
     	-webkit-box-sizing: border-box;
-    	background: -webkit-linear-gradient(top, #fafafa 0%, #f0f0f0 50%, #fafafa 100%);
+    	background: -webkit-linear-gradient(top, #fafafa 0%, #f9f9f9 50%, #fafafa 100%);
+        border-bottom: 1px solid #aaa;
     }
 
-    .list li::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: -webkit-linear-gradient(top, #aaa, #aaa 60%, transparent 60%),
-            -webkit-linear-gradient(right, #aaa, #aaa 60%, transparent 60%),
-            -webkit-linear-gradient(bottom, #aaa, #aaa 60%, transparent 60%),
-            -webkit-linear-gradient(left, #aaa, #aaa 60%, transparent 60%);
-        background-size: 100% 1px, 1px 100%;
-        background-position: top, right top, bottom, left top;
-        background-repeat: no-repeat;
-    }
-
-    .list li:active{
-        background: #f0f0f0;
-    }
-    .list li:active::after {
-        background-image: -webkit-linear-gradient(top, #f50, #f50 60%, transparent 60%),
-            -webkit-linear-gradient(right, #f50, #f50 60%, transparent 60%),
-            -webkit-linear-gradient(bottom, #f50, #f50 60%, transparent 60%),
-            -webkit-linear-gradient(left, #f50, #f50 60%, transparent 60%);
+    .list li:last-child {
+    	border-bottom: 0;
     }
 
     #footer {
@@ -101,13 +67,6 @@
     }
 
     </style>
-
-    <script type="text/javascript">
-
-    document.addEventListener( 'touchstart', function(){}, true );
-
-    </script>
-
 </head>
 
 <body>
